@@ -50,7 +50,7 @@ Subsequent response definitions will only detail the expected value of the `data
 
 - `"identifier":string` a globally unique identifier for this territory
 - `"name":string` Name that stayed with a territory
-- `"dt_inicial":string` date initial
+- `"dt_initial":string` date initial
 - `"dt_final":string` date final
 
 If a territory with the given identifier already exists, the existing territory will be overwritten.
