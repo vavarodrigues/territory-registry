@@ -1,3 +1,17 @@
-.idea
+# Cache files
+__pycache__
+*.pyc
 
-territory.db
+# User specific files
+instance/
+logs/
+
+# Python files
+*.pyo
+env
+
+# App files
+territories.db
+
+# Idea
+.idea
