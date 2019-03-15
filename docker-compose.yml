@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  territory-registry:
+    build: .
+    command: ["python3", "run.py"]
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 5000:5000
